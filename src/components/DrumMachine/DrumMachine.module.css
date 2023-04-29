@@ -1,0 +1,14 @@
+.display {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.drumMachine {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 300px;
+  margin: 10px;
+}
