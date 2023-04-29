@@ -21,7 +21,6 @@ const useAudio = (
 
   const toggle = (drumPadId: DrumPadId) => {
     audio?.play();
-    console.log("setting to id", drumPadId);
     setCurrentDrumPadPlaying(drumPadId);
   };
 
